@@ -1,0 +1,7 @@
+{
+  "deno.enable": true,
+  "editor.formatOnSave": true,
+  "editor.defaultFormatter": "denoland.vscode-deno",
+  "deno.lint": true,
+  "cSpell.words": ["deno", "readwise", "Readwise", "READWISE"]
+}

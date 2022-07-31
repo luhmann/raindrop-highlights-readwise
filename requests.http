@@ -1,0 +1,13 @@
+@RAINDROPS_TOKEN=04bc4c4c-fb59-4d0c-90aa-ed957541a829
+@ARTICLE_ID=227975124
+
+GET https://api.raindrop.io/rest/v1/highlights?page=0&perpage=10
+Authorization: Bearer {{RAINDROPS_TOKEN}}
+
+### Get Highlights of single article
+GET https://api.raindrop.io/rest/v1/raindrop/{{ARTICLE_ID}}
+Authorization: Bearer {{RAINDROPS_TOKEN}}
+
+### Get most recent raindrops from everywhere except trash
+GET https://api.raindrop.io/rest/v1/raindrops/0?page=0&perpage=10
+Authorization: Bearer {{RAINDROPS_TOKEN}}
